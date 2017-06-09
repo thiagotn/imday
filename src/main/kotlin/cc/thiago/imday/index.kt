@@ -11,6 +11,6 @@ class IndexController {
 
     @GetMapping("/")
     fun index(): String {
-        return "Hello Spring Boot using Kotlin"
+        return "Hello Spring-Boot using Kotlin"
     }
 }
